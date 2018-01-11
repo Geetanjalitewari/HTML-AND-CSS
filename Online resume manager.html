@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Resume Manager</title>
+	<style type="text/css">
+		form{
+			color: #800040;                       
+			background-color: #ff9393;
+			border:14px solid #eebe5d;
+			margin:300px;
+			width: 41%;
+			
+			
+		}
+		#top{
+			border:2px solid green;
+			text-align: center;
+
+		}
+		#mid{
+			align:center;
+			
+			border-top:2px dotted black;
+			border-bottom: 2px dotted black;
+			border-left:1px dotted black;
+			border-right: 1px dotted black;
+			margin: 8px;
+			margin-left:8px;
+			margin-right:8px;
+			width:70%;
+		}
+		td,tr{
+			margin:4px;
+		}
+		
+	</style>
+</head>
+<body>
+
+<form>
+	<div id="top">
+	<h3>Online Job Portal</h3>
+	<i>Resume Manager</i>
+
+</div>
+	<table>
+		<tr>
+			<td>Name</td><td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<td>Father's Name</td><td><input type="text" name="faname"></td>
+		</tr>
+		<tr>
+			<td>Mother's Name</td><td><input type="text" name="moname"></td>
+		</tr>
+		<tr>
+			<td>Date of Birth (dd/mm/yyyy)</td><td><input type="number" min="1" max="31" name="date"><input type="number" min="1" max="12" name="month"><input type="number" name="year" min="1800" max="2015"></td>
+		</tr>
+		<tr>
+			<td>Email ID</td><td><input type="Email" name="Email"></td>
+		</tr>
+		<tr>
+			<td>Nationality</td><td><input type="text" name="nationality"></td>
+		</tr>
+	</table>
+
+	   
+	 <table id="mid" style="background-color: #ffcc99;">
+		<tr>
+			<th>Degree</th><th>Institute/University</th><th>Year</th><th>Percentage</th>
+		</tr>
+		<tr>
+			<td><select>
+				<option>SSLC</option>
+				<option>AAAA</option>
+				<option>BBBB</option>
+				<option>CCCC</option>
+			</select></td>
+			<td><select>
+				<option>State Board</option>
+				<option>CBSE</option>
+				<option>ICSE</option>
+			</select>
+			</td><td><input type="number" min="1800" max="2018" name="year"></td><td><input type="number" min="1" max="100" name="percentage"></td>
+		</tr>
+		<tr>
+			<td><select>
+				<option>Higher Secondary (+2)</option>
+				<option>nfvjefng </option>
+				<option>rfnejrgne</option>
+				<option>mfnkrj</option>
+			</select></td>
+			<td><select>
+				<option>State Board</option>
+				<option>CBSE</option>
+				<option>ICSE</option>
+			</select>
+			</td><td><input type="number" min="1800" max="2018" name="year"></td><td><input type="number" min="1" max="100" name="percentage"></td>
+		</tr>
+		<tr>
+			<td><select>
+				<option>Select UG Degree</option>
+				<option>Btech </option>
+				<option>BCom</option>
+				<option>BSE</option>
+			</select></td>
+			<td><select>
+				<option>VIT UNIVERSITY</option>
+				<option>IP UNIVERSITY</option>
+				<option>SRM UNIVERSITY</option>
+				<option>SHASTRA UNIVERSITY</option>
+				<option>MANIPAL UNIVERSITY</option>
+			</select>
+			</td><td><input type="number" min="1800" max="2018" name="year"></td><td><input type="number" min="1" max="100" name="percentage"></td>
+		</tr>
+
+		<table>
+	    
+	    
+
+		<tr>
+			<td>Address for communication</td><td><input type="textarea" name="address" style="height: 102px; width: 125px;"></td>
+		</tr>
+		<tr>
+			<td>Mobile Number</td><td><input type="tel" name="number"></td>
+		</tr>
+		<tr>
+			<td>Phone Number</td><td><input type="tel" name="numberp"></td>
+		</tr>
+
+	</table>
+
+</form>
+</body>
+</html>
